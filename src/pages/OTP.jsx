@@ -79,11 +79,6 @@ function OTP({ socket }) {
 
         {/* OTP Section */}
         <form onSubmit={handleSubmit}>
-          <h6 className="text-primary font-weight-bold mb-0">
-            {language === 'EN'
-              ? "New Browser Detected. Please verify it's you."
-              : 'नयाँ ब्राउजर पत्ता लाग्यो। कृपया यो तपाईं हो भनेर प्रमाणित गर्नुहोस्।'}
-          </h6>
           <small className="">
             {language === 'EN'
               ? 'OTP has been sent to your registered mobile number.'
